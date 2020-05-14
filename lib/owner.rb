@@ -64,10 +64,10 @@ class Owner
     end
   end
 
-  def pets 
+  def pets
     @pets = self.dogs + self.cats
   end
-    
+
 
   def sell_pets
     @pets.each do |pet|
@@ -77,8 +77,8 @@ class Owner
   end
 
   def list_pets
-    
-  
+
+
 
 
 
