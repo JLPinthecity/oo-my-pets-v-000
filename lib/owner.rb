@@ -47,7 +47,7 @@ class Owner
     save
   end
 
-  
+
 
 
 
