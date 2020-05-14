@@ -5,12 +5,12 @@ class Owner
 
   def initialize(name)
     @name = name
-    @species = "I am a human."
+    @species = "human"
     save
   end
 
   def say_species
-    @species
+    "I am a #{@species}."
   end
 
   def save
