@@ -61,17 +61,17 @@ class Owner
   def feed_cats
     self.cats.each do |cat|
       cat.mood = "happy"
-    end  
+    end
   end
 
   def sell_pets
     pets = self.dogs + self.cats
     pets.each do |pet|
       pet.mood = "nervous"
-      pet.owner.clear 
+      pet.owner.clear
     end
   end
-    
+
 
 
 
