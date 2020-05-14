@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
   attr_reader :name, :species
 
@@ -45,6 +46,8 @@ class Owner
     a = Cat.new(name, self)
     save
   end
+
+  
 
 
 
