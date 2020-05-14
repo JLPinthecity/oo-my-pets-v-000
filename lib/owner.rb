@@ -40,7 +40,7 @@ class Owner
       dog.owner == self
     end
   end
-  
+
 
 
 
