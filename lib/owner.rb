@@ -52,6 +52,12 @@ class Owner
     save
   end
 
+  def walk_dogs
+  end
+
+  def walk_cats
+  end
+
 
 
 
