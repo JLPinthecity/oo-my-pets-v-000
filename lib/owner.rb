@@ -16,5 +16,5 @@ class Owner
     @@all << self
   end
 
-  def 
+  def
 end
